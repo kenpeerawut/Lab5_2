@@ -31,25 +31,49 @@
         padding-bottom: 18px;
         
     }
+    .wrap{
+        margin: auto;
+    }
     .product {
         text-align: center;
      }
-    .wrap {
-        background-color: rgb(33, 33, 145);
-        
-    }
+    
     .botton{
         text-align: center;
         color: white;
+        background-color: rgb(33, 33, 145);
+        padding-bottom: 10px;
+        padding: 10px;
+        width: 290px;
+        border-radius: 10px;
+        margin: auto;
         
     }
     
     @media (min-width :600px){
         .flexible { display: flex; }
         .product { width: 250px; }
-        .content { width: 600px;}
+        .content { width: 550px;
+          
+            
+        }
+        .botton{
+            background-color: rgb(33, 33, 145);
+            padding-bottom: 10px;
+            padding: 11px;
+            width: 170px;
+            border-radius: 5px;
+            margin: auto;
+        
+
+        }
         .wrap { width: 200px;}
 
+    }
+    .fa-cart-plus{
+            color: white;
+            position: relative;
+            top: 2px;
     }
     
 </style>
@@ -66,11 +90,7 @@
             3-axis Compass, Tundra<br><br>
             <div class="wrap">
                 <a href="">
-                    
-                    
-                    <div  class="botton">Add to cart</div>
-                    
-                    
+                    <div  class="botton"><i class="fa-solid fa-cart-plus"></i>Add to cart</div>
                 </a>
             </div>
 		</div>
